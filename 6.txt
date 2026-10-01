@@ -1,7 +1,8 @@
-#include<stdio.h> int main()
+#include<stdio.h>
+int main()
 {
-int windowsize,sent=0,ack,i; printf("enter window
-size\n");
+int windowsize,sent=0,ack,i;
+printf("enter windowsize\n");
 scanf("%d",&windowsize);
 while(1)
 {
